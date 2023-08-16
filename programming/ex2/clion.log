@@ -1,0 +1,17 @@
+nohup: ignoring input
+CompileCommand: exclude com/intellij/openapi/vfs/impl/FilePartNodeRoot.trieDescend bool exclude = true
+2023-08-07 14:25:39,081 [   1766]   WARN - #c.i.o.v.n.p.l.VfsLog - VFS Log version differs from the implementation version: log null vs implementation -43
+2023-08-07 14:25:39,370 [   2055]   WARN - #c.i.o.a.i.ActionManagerImpl - keymap "VSCode" not found PluginDescriptor(name=Terminal, id=org.jetbrains.plugins.terminal, descriptorPath=plugin.xml, path=~/Software/clion-2023.1.4/plugins/terminal, version=231.9161.40, package=null, isBundled=true)
+2023-08-07 14:25:39,496 [   2181]   WARN - #c.j.p.PluginClassPathRuntimeCustomizer - There was more than one class loaded in Projector Plugin classloader - this is likely a bug!
+2023-08-07 14:25:39,501 [   2186]   WARN - #c.i.f.ProductivityFeaturesRegistryImpl - Feature with id 'codeassists.context.actions' is overridden by: id = [codeassists.context.actions], displayName = [null], groupId = [codeassists], usageCount = [0]
+2023-08-07 14:25:39,502 [   2187]   WARN - #c.i.f.ProductivityFeaturesRegistryImpl - Feature with id 'codeassists.generate.code' is overridden by: id = [codeassists.generate.code], displayName = [null], groupId = [codeassists], usageCount = [0]
+2023-08-07 14:25:39,502 [   2187]   WARN - #c.i.f.ProductivityFeaturesRegistryImpl - Feature with id 'codeassists.quickdefinition' is overridden by: id = [codeassists.quickdefinition], displayName = [null], groupId = [codeassists], usageCount = [0]
+Info  | RdCoroutineScope          | 56:DefaultDispatcher-worker-39 | RdCoroutineHost overridden 
+2023-08-07 14:25:41,506 [   4191]   WARN - #c.i.o.a.i.ActionUpdater - 522 ms to grab EDT for GitCommitWithStagingAreaAction#update@NavBarToolbar (git4idea.index.actions.GitCommitWithStagingAreaAction)
+2023-08-07 14:26:53,334 [  76019]   WARN - c.j.c.l.d.c.c.l.c.ClangClient - Standard clangd is not supported
+2023-08-07 14:27:20,924 [ 103609]   WARN - #c.i.u.x.Binding - no accessors for com.intellij.openapi.projectRoots.Sdk
+2023-08-07 15:11:13,136 [2735821]   WARN - c.j.c.l.d.c.c.l.c.ClangClient - Standard clangd is not supported
+2023-08-07 15:11:44,637 [2767322] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 13 >= 13
+2023-08-07 15:11:44,638 [2767323] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 13 >= 13
+2023-08-07 15:33:26,067 [4068752]   WARN - #c.i.o.a.i.ActionUpdater - 813 ms to grab EDT for EditorMarkupModelImpl$TrafficLightAction#update@EditorInspectionsToolbar (com.intellij.openapi.editor.impl.EditorMarkupModelImpl$TrafficLightAction)
+2023-08-07 15:33:33,273 [4075958]   WARN - #c.i.o.a.i.ActionUpdater - 573 ms to grab EDT for EditorMarkupModelImpl$TrafficLightAction#update@EditorInspectionsToolbar (com.intellij.openapi.editor.impl.EditorMarkupModelImpl$TrafficLightAction)

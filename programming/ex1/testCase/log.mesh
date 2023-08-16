@@ -1,0 +1,152 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2306                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : v2306 OPENFOAM=2306 version=v2306
+Arch   : "LSB;label=32;scalar=64"
+Exec   : blockMesh
+Date   : Aug 07 2023
+Time   : 16:25:22
+Host   : CFD-lab
+PID    : 1140043
+I/O    : uncollated
+Case   : /media/herryao/226d4f79-e45a-4bb6-aafd-f7882b5f7f1e/Documents/of2307/programming/ex1/testCase
+nProcs : 1
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 5, maxFileModificationPolls 20)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Creating block mesh from "system/blockMeshDict"
+Creating block edges
+No non-planar block faces defined
+Creating topology blocks
+
+Creating topology patches - from boundary section
+
+Creating block mesh topology
+
+Check topology
+
+	Basic statistics
+		Number of internal faces : 3
+		Number of boundary faces : 12
+		Number of defined boundary faces : 12
+		Number of undefined boundary faces : 0
+	Checking patch -> block consistency
+
+Creating block offsets
+Creating merge list (topological search)...
+Deleting polyMesh directory "constant/polyMesh"
+
+Creating polyMesh from blockMesh
+Creating patches
+Creating cells
+Creating points with scale (1 1 1)
+    Block 0 cell size :
+        i : 0.02 .. 0.02
+        j : 0.04 .. 0.04
+        k : 0.04 .. 0.04
+
+    Block 1 cell size :
+        i : 0.02 .. 0.02
+        j : 0.0245528 .. 0.00122764
+        k : 0.0321747 .. 0.0336564
+
+    Block 2 cell size :
+        i : 0.02 .. 0.02
+        j : 0.0167666 .. 0.000838329
+        k : 0.0336645 .. 0.0321745
+
+No patch pairs to merge
+
+Writing polyMesh with 0 cellZones
+----------------
+Mesh Information
+----------------
+  boundingBox: (0 0 0) (1 1 1)
+  nPoints: 74766
+  nCells: 70000
+  nFaces: 214650
+  nInternalFaces: 205350
+----------------
+Patches
+----------------
+  patch 0 (start: 205350 size: 1400) name: inlet
+  patch 1 (start: 206750 size: 1400) name: outlet
+  patch 2 (start: 208150 size: 2000) name: pipe
+  patch 3 (start: 210150 size: 2250) name: symmetryVer
+  patch 4 (start: 212400 size: 2250) name: symmetryHor
+
+End
+
+Using: OpenFOAM-v2306 (2306) - visit www.openfoam.com
+Build: v2306
+
+Expected 0 arguments but found 1
+
+See 'transformPoints -help' for usage
+ or 'transformPoints -help-full' for extended usage
+
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2306                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : v2306 OPENFOAM=2306 version=v2306
+Arch   : "LSB;label=32;scalar=64"
+Exec   : renumberMesh -overwrite
+Date   : Aug 07 2023
+Time   : 16:25:23
+Host   : CFD-lab
+PID    : 1140046
+I/O    : uncollated
+Case   : /media/herryao/226d4f79-e45a-4bb6-aafd-f7882b5f7f1e/Documents/of2307/programming/ex1/testCase
+nProcs : 1
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 5, maxFileModificationPolls 20)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Mesh region0 size: 70000
+Before renumbering :
+    band           : 49750
+    profile        : 1.36433e+08
+
+Using default renumberMethod.
+
+Selecting renumberMethod CuthillMcKee
+
+Reading volScalarField: k nut omega p
+Reading volVectorField: U[stack trace]
+=============
+#1  Foam::sigFpe::sigHandler(int) in ~/OpenFOAM/OpenFOAM-v2306/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so
+#2  ? in /lib/x86_64-linux-gnu/libc.so.6
+#3  ? in /lib/x86_64-linux-gnu/libm.so.6
+#4  powf64 in /lib/x86_64-linux-gnu/libm.so.6
+#5  Foam::prescribedPipeInletFvPatchVectorField::updateCoeffs() at ~/OpenFOAM/OpenFOAM-v2306/src/OpenFOAM/lnInclude/UListI.H:303
+#6  Foam::prescribedPipeInletFvPatchVectorField::prescribedPipeInletFvPatchVectorField(Foam::fvPatch const&, Foam::DimensionedField<Foam::Vector<double>, Foam::volMesh> const&, Foam::dictionary const&, bool) at /media/herryao/226d4f79-e45a-4bb6-aafd-f7882b5f7f1e/Documents/of2307/programming/ex1/prescribedPipeInletFvPatchVectorField.C:80
+#7  Foam::fvPatchField<Foam::Vector<double> >::adddictionaryConstructorToTable<Foam::prescribedPipeInletFvPatchVectorField>::New(Foam::fvPatch const&, Foam::DimensionedField<Foam::Vector<double>, Foam::volMesh> const&, Foam::dictionary const&) at ~/OpenFOAM/OpenFOAM-v2306/src/finiteVolume/lnInclude/fvPatchField.H:349 (discriminator 2)
+#8  Foam::fvPatchField<Foam::Vector<double> >::New(Foam::fvPatch const&, Foam::DimensionedField<Foam::Vector<double>, Foam::volMesh> const&, Foam::dictionary const&) in ~/OpenFOAM/OpenFOAM-v2306/platforms/linux64GccDPInt32Opt/bin/renumberMesh
+#9  Foam::GeometricBoundaryField<Foam::Vector<double>, Foam::fvPatchField, Foam::volMesh>::readField(Foam::DimensionedField<Foam::Vector<double>, Foam::volMesh> const&, Foam::dictionary const&) in ~/OpenFOAM/OpenFOAM-v2306/platforms/linux64GccDPInt32Opt/bin/renumberMesh
+#10  Foam::GeometricField<Foam::Vector<double>, Foam::fvPatchField, Foam::volMesh>::readFields(Foam::dictionary const&) in ~/OpenFOAM/OpenFOAM-v2306/platforms/linux64GccDPInt32Opt/bin/renumberMesh
+#11  Foam::GeometricField<Foam::Vector<double>, Foam::fvPatchField, Foam::volMesh>::readFields() in ~/OpenFOAM/OpenFOAM-v2306/platforms/linux64GccDPInt32Opt/bin/renumberMesh
+#12  Foam::GeometricField<Foam::Vector<double>, Foam::fvPatchField, Foam::volMesh>::GeometricField(Foam::IOobject const&, Foam::fvMesh const&, bool) in ~/OpenFOAM/OpenFOAM-v2306/platforms/linux64GccDPInt32Opt/bin/renumberMesh
+#13  ? in ~/OpenFOAM/OpenFOAM-v2306/platforms/linux64GccDPInt32Opt/bin/renumberMesh
+#14  ? in ~/OpenFOAM/OpenFOAM-v2306/platforms/linux64GccDPInt32Opt/bin/renumberMesh
+#15  ? in /lib/x86_64-linux-gnu/libc.so.6
+#16  __libc_start_main in /lib/x86_64-linux-gnu/libc.so.6
+#17  ? in ~/OpenFOAM/OpenFOAM-v2306/platforms/linux64GccDPInt32Opt/bin/renumberMesh
+=============
+./Allrun.mesh: line 42: 1140046 Floating point exception(core dumped) renumberMesh -overwrite

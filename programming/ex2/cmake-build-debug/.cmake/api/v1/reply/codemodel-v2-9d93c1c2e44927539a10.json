@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "prescribedPipeInlet",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "prescribedPipeInlet::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-prescribedPipeInlet-Debug-5ae6bce892ba2732d26f.json",
+					"name" : "prescribedPipeInlet",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/media/herryao/226d4f79-e45a-4bb6-aafd-f7882b5f7f1e/Documents/of2307/programming/ex2/cmake-build-debug",
+		"source" : "/media/herryao/226d4f79-e45a-4bb6-aafd-f7882b5f7f1e/Documents/of2307/programming/ex2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

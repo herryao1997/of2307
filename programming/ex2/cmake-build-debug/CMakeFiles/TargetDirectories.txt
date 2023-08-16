@@ -1,0 +1,3 @@
+/media/herryao/226d4f79-e45a-4bb6-aafd-f7882b5f7f1e/Documents/of2307/programming/ex2/cmake-build-debug/CMakeFiles/prescribedPipeInlet.dir
+/media/herryao/226d4f79-e45a-4bb6-aafd-f7882b5f7f1e/Documents/of2307/programming/ex2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/media/herryao/226d4f79-e45a-4bb6-aafd-f7882b5f7f1e/Documents/of2307/programming/ex2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
