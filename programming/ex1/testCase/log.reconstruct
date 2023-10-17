@@ -8,10 +8,10 @@
 Build  : v2306 OPENFOAM=2306 version=v2306
 Arch   : "LSB;label=32;scalar=64"
 Exec   : reconstructPar -latestTime
-Date   : Aug 07 2023
-Time   : 16:25:32
+Date   : Aug 17 2023
+Time   : 12:31:52
 Host   : CFD-lab
-PID    : 1140200
+PID    : 39060
 I/O    : uncollated
 Case   : /media/herryao/226d4f79-e45a-4bb6-aafd-f7882b5f7f1e/Documents/of2307/programming/ex1/testCase
 nProcs : 1
@@ -22,25 +22,7 @@ allowSystemOperations : Allowing user-supplied system call operations
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 Create time
 
-
-
-Reconstructing fields
-region=region0
-
-Time = 1
-
-Reconstructing FV fields
-
-No FV fields
-
-Reconstructing point fields
-
-No point fields
-
-No lagrangian fields
-
-No FA fields
-
-
-End
-
+--> FOAM Warning : 
+    From int main(int, char**)
+    in file reconstructPar.C at line 271
+    No times selected

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="prescribedPipeInlet" targetName="prescribedPipeInlet" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="33b57f11-057b-4f8a-a2e2-e5eff936467f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clion.log" beforeDir="false" afterPath="$PROJECT_DIR$/clion.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-08-07T04-56-43-0849.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libprescribedPipeInlet.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCase/0/U" beforeDir="false" afterPath="$PROJECT_DIR$/testCase/0/U" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCase/0/k" beforeDir="false" afterPath="$PROJECT_DIR$/testCase/0/k" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCase/0/nut" beforeDir="false" afterPath="$PROJECT_DIR$/testCase/0/nut" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCase/0/omega" beforeDir="false" afterPath="$PROJECT_DIR$/testCase/0/omega" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCase/0/p" beforeDir="false" afterPath="$PROJECT_DIR$/testCase/0/p" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCase/1/U" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCase/1/k" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCase/1/nut" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCase/1/omega" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCase/1/p" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCase/1/polyMesh/boundary" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCase/1/polyMesh/cellZones" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCase/1/polyMesh/faceZones" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCase/1/polyMesh/faces" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCase/1/polyMesh/neighbour" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCase/1/polyMesh/owner" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCase/1/polyMesh/pointZones" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCase/1/polyMesh/points" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCase/log.decomposePar" beforeDir="false" afterPath="$PROJECT_DIR$/testCase/log.decomposePar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCase/log.mesh" beforeDir="false" afterPath="$PROJECT_DIR$/testCase/log.mesh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCase/log.potentialFoam" beforeDir="false" afterPath="$PROJECT_DIR$/testCase/log.potentialFoam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCase/log.reconstruct" beforeDir="false" afterPath="$PROJECT_DIR$/testCase/log.reconstruct" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCase/log.run" beforeDir="false" afterPath="$PROJECT_DIR$/testCase/log.run" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCase/log.sample" beforeDir="false" afterPath="$PROJECT_DIR$/testCase/log.sample" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCase/log.yPlus" beforeDir="false" afterPath="$PROJECT_DIR$/testCase/log.yPlus" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCase/postProcessing/yPlus/1/yPlus.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCase/postProcessing/yPlus/1/yPlus_1.dat" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2023" />
+    <option name="minorVersion" value="1.4" />
+  </component>
+  <component name="ProjectId" id="2U5u4SAYUpL9PtWqoIFpDpGTajQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "/home/herryao/OpenFOAM/herryao-v2306/run/bc",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/testCase" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="prescribedPipeInlet" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="prescribedPipeInlet" TARGET_NAME="prescribedPipeInlet" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="33b57f11-057b-4f8a-a2e2-e5eff936467f" name="Changes" comment="" />
+      <created>1692241571387</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1692241571387</updated>
+      <workItem from="1692241572721" duration="1698000" />
+      <workItem from="1692243385466" duration="17000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticEditVcpkgJson value="false" />
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticFoundErrors value="true" />
+  </component>
+</project>

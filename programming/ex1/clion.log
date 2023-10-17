@@ -1,115 +1,16 @@
 nohup: ignoring input
 CompileCommand: exclude com/intellij/openapi/vfs/impl/FilePartNodeRoot.trieDescend bool exclude = true
-2023-08-07 13:51:09,173 [   1829]   WARN - #c.i.o.v.n.p.l.VfsLog - VFS Log version differs from the implementation version: log null vs implementation -43
-2023-08-07 13:51:09,485 [   2141]   WARN - #c.i.o.a.i.ActionManagerImpl - keymap "VSCode" not found PluginDescriptor(name=Terminal, id=org.jetbrains.plugins.terminal, descriptorPath=plugin.xml, path=~/Software/clion-2023.1.4/plugins/terminal, version=231.9161.40, package=null, isBundled=true)
-2023-08-07 13:51:09,595 [   2251]   WARN - #c.j.p.PluginClassPathRuntimeCustomizer - There was more than one class loaded in Projector Plugin classloader - this is likely a bug!
-2023-08-07 13:51:09,604 [   2260]   WARN - #c.i.f.ProductivityFeaturesRegistryImpl - Feature with id 'codeassists.context.actions' is overridden by: id = [codeassists.context.actions], displayName = [null], groupId = [codeassists], usageCount = [0]
-2023-08-07 13:51:09,605 [   2261]   WARN - #c.i.f.ProductivityFeaturesRegistryImpl - Feature with id 'codeassists.generate.code' is overridden by: id = [codeassists.generate.code], displayName = [null], groupId = [codeassists], usageCount = [0]
-2023-08-07 13:51:09,606 [   2262]   WARN - #c.i.f.ProductivityFeaturesRegistryImpl - Feature with id 'codeassists.quickdefinition' is overridden by: id = [codeassists.quickdefinition], displayName = [null], groupId = [codeassists], usageCount = [0]
-Info  | RdCoroutineScope          | 41:DefaultDispatcher-worker-24 | RdCoroutineHost overridden 
-2023-08-07 13:51:12,897 [   5553]   WARN - #c.j.c.c.e.t.c.CTestProjectTestsUpdater - Cannot update CTest project info
-com.intellij.execution.WorkingDirectoryNotFoundException: Cannot start process, the working directory '/media/herryao/226d4f79-e45a-4bb6-aafd-f7882b5f7f1e/Documents/of2307/programming/ex1/cmake-build-debug' does not exist
-	at com.intellij.execution.configurations.GeneralCommandLine.validateAndPrepareCommandLine(GeneralCommandLine.java:369)
-	at com.intellij.execution.configurations.GeneralCommandLine.createProcess(GeneralCommandLine.java:344)
-	at com.intellij.execution.process.OSProcessHandler.startProcess(OSProcessHandler.java:84)
-	at com.intellij.execution.process.OSProcessHandler.<init>(OSProcessHandler.java:44)
-	at com.intellij.execution.process.CapturingProcessHandler.<init>(CapturingProcessHandler.java:20)
-	at com.jetbrains.cidr.system.LocalHost$ParameterizedCapturingProcessHandler.<init>(LocalHost.java:179)
-	at com.jetbrains.cidr.system.LocalHost$1.build(LocalHost.java:85)
-	at com.jetbrains.cidr.system.CidrProcessBuilder.build(CidrProcessBuilder.kt:44)
-	at com.jetbrains.cidr.system.HostMachine.runProcess(HostMachine.java:58)
-	at com.jetbrains.cidr.cpp.toolchains.CMakeExecutableTool.executeWithOutput(CMakeExecutableTool.java:209)
-	at com.jetbrains.cidr.cpp.execution.testing.ctest.CTestUtil.getInfos(CTestUtil.java:151)
-	at com.jetbrains.cidr.cpp.execution.testing.ctest.CTestProjectTestsUpdater.doCollectTestsInfo(CTestProjectTestsUpdater.java:126)
-	at com.jetbrains.cidr.cpp.execution.testing.ctest.CTestProjectTestsUpdater$4.run(CTestProjectTestsUpdater.java:109)
-	at com.intellij.openapi.progress.impl.CoreProgressManager.startTask(CoreProgressManager.java:429)
-	at com.intellij.openapi.progress.impl.ProgressManagerImpl.startTask(ProgressManagerImpl.java:114)
-	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcessWithProgressAsynchronously$6(CoreProgressManager.java:480)
-	at com.intellij.openapi.progress.impl.ProgressRunner.lambda$submit$3(ProgressRunner.java:252)
-	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$2(CoreProgressManager.java:186)
-	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$executeProcessUnderProgress$13(CoreProgressManager.java:604)
-	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:679)
-	at com.intellij.openapi.progress.impl.CoreProgressManager.computeUnderProgress(CoreProgressManager.java:635)
-	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:603)
-	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:60)
-	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:173)
-	at com.intellij.openapi.progress.impl.ProgressRunner.lambda$submit$4(ProgressRunner.java:252)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:702)
-	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:699)
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
-	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:699)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-2023-08-07 13:51:19,581 [  12237]   WARN - #c.i.u.x.Binding - no accessors for com.intellij.openapi.projectRoots.Sdk
-Unable to find full path for "/media/herryao/226d4f79-e45a-4bb6-aafd-f7882b5f7f1e/Documents/of2307/programming/ex1/cmake-build-debug/build.ninja"
-2023-08-07 13:55:40,136 [ 272792]   WARN - #c.i.e.c.PtyCommandLine - Couldn't run process with PTY
-java.io.IOException: Exec_tty error:Unknown reason
-	at com.pty4j.unix.UnixPtyProcess.execInPty(UnixPtyProcess.java:222)
-	at com.pty4j.unix.UnixPtyProcess.<init>(UnixPtyProcess.java:62)
-	at com.pty4j.PtyProcessBuilder.start(PtyProcessBuilder.java:147)
-	at com.intellij.execution.process.ProcessServiceImpl.startPtyProcess(ProcessServiceImpl.kt:37)
-	at com.intellij.execution.configurations.PtyCommandLine.startProcessWithPty(PtyCommandLine.java:167)
-	at com.intellij.execution.configurations.PtyCommandLine.startProcess(PtyCommandLine.java:111)
-	at com.intellij.execution.configurations.GeneralCommandLine.createProcess(GeneralCommandLine.java:346)
-	at com.intellij.execution.process.OSProcessHandler.startProcess(OSProcessHandler.java:84)
-	at com.intellij.execution.process.OSProcessHandler.<init>(OSProcessHandler.java:44)
-	at com.jetbrains.cidr.system.LocalHost$TerminalEmulatorOSProcessHandler.<init>(LocalHost.java:228)
-	at com.jetbrains.cidr.system.LocalHost$1.build(LocalHost.java:79)
-	at com.jetbrains.cidr.system.CidrProcessBuilder.build(CidrProcessBuilder.kt:44)
-	at com.jetbrains.cidr.cpp.execution.CLionLauncher.createProcessHandler(CLionLauncher.kt:157)
-	at com.jetbrains.cidr.cpp.execution.CLionLauncher.createProcess(CLionLauncher.kt:98)
-	at com.jetbrains.cidr.execution.CidrLauncher.startProcess(CidrLauncher.java:23)
-	at com.jetbrains.cidr.execution.CidrCommandLineState.startProcess(CidrCommandLineState.java:35)
-	at com.intellij.execution.configurations.CommandLineState.execute(CommandLineState.java:61)
-	at com.jetbrains.cidr.execution.CidrCommandLineState.execute(CidrCommandLineState.java:41)
-	at com.intellij.execution.runners.DefaultProgramRunnerKt.executeState(DefaultProgramRunner.kt:33)
-	at com.jetbrains.cidr.execution.CidrRunner.doExecute(CidrRunner.java:39)
-	at com.jetbrains.cidr.cpp.execution.CLionRunner.doExecute(CLionRunner.kt:33)
-	at com.jetbrains.cidr.execution.CidrRunner.lambda$execute$0(CidrRunner.java:33)
-	at com.intellij.execution.ExecutionManager$startRunProfile$1.invoke(ExecutionManager.kt:73)
-	at com.intellij.execution.ExecutionManager$startRunProfile$1.invoke(ExecutionManager.kt:72)
-	at com.intellij.execution.impl.ExecutionManagerImpl$startRunProfile$1.invoke(ExecutionManagerImpl.kt:180)
-	at com.intellij.execution.impl.ExecutionManagerImpl$startRunProfile$1.invoke(ExecutionManagerImpl.kt:178)
-	at com.intellij.execution.impl.ExecutionManagerImpl.doStartRunProfile$lambda$2(ExecutionManagerImpl.kt:241)
-	at com.intellij.openapi.application.TransactionGuardImpl.runWithWritingAllowed(TransactionGuardImpl.java:209)
-	at com.intellij.openapi.application.TransactionGuardImpl.access$100(TransactionGuardImpl.java:21)
-	at com.intellij.openapi.application.TransactionGuardImpl$1.run(TransactionGuardImpl.java:191)
-	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:831)
-	at com.intellij.openapi.application.impl.ApplicationImpl$3.run(ApplicationImpl.java:456)
-	at com.intellij.openapi.application.impl.FlushQueue.doRun(FlushQueue.java:79)
-	at com.intellij.openapi.application.impl.FlushQueue.runNextEvent(FlushQueue.java:122)
-	at com.intellij.openapi.application.impl.FlushQueue.flushNow(FlushQueue.java:41)
-	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
-	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:788)
-	at java.desktop/java.awt.EventQueue$3.run(EventQueue.java:739)
-	at java.desktop/java.awt.EventQueue$3.run(EventQueue.java:731)
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
-	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
-	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:758)
-	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.kt:667)
-	at com.intellij.ide.IdeEventQueue._dispatchEvent$lambda$7(IdeEventQueue.kt:571)
-	at com.intellij.openapi.application.impl.ApplicationImpl.withoutImplicitRead(ApplicationImpl.java:1446)
-	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.kt:571)
-	at com.intellij.ide.IdeEventQueue.access$_dispatchEvent(IdeEventQueue.kt:68)
-	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.compute(IdeEventQueue.kt:349)
-	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.compute(IdeEventQueue.kt:348)
-	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:787)
-	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1.invoke(IdeEventQueue.kt:348)
-	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1.invoke(IdeEventQueue.kt:343)
-	at com.intellij.ide.IdeEventQueueKt.performActivity$lambda$1(IdeEventQueue.kt:995)
-	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:105)
-	at com.intellij.ide.IdeEventQueueKt.performActivity(IdeEventQueue.kt:995)
-	at com.intellij.ide.IdeEventQueue.dispatchEvent$lambda$4(IdeEventQueue.kt:343)
-	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:831)
-	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.kt:385)
-	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:207)
-	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:128)
-	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:117)
-	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:113)
-	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:105)
-	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:92)
-2023-08-07 13:56:47,809 [ 340465]   WARN - #c.i.o.a.e.ActionUtil - Can not find action by id CompileDirty
-JCEF(56:50:690): initialized stderr logger, severity=LOGSEVERITY_DISABLE
-2023-08-07 14:16:16,627 [1509283]   WARN - c.j.c.l.d.c.c.l.c.ClangClient - Standard clangd is not supported
+2023-08-17 12:06:08,936 [   1830]   WARN - #c.i.o.v.n.p.l.VfsLog - VFS Log version differs from the implementation version: log null vs implementation -43
+2023-08-17 12:06:09,258 [   2152]   WARN - #c.i.o.a.i.ActionManagerImpl - keymap "VSCode" not found PluginDescriptor(name=Terminal, id=org.jetbrains.plugins.terminal, descriptorPath=plugin.xml, path=~/Software/clion-2023.1.4/plugins/terminal, version=231.9161.40, package=null, isBundled=true)
+2023-08-17 12:06:09,350 [   2244]   WARN - #c.j.p.PluginClassPathRuntimeCustomizer - There was more than one class loaded in Projector Plugin classloader - this is likely a bug!
+2023-08-17 12:06:09,359 [   2253]   WARN - #c.i.f.ProductivityFeaturesRegistryImpl - Feature with id 'codeassists.context.actions' is overridden by: id = [codeassists.context.actions], displayName = [null], groupId = [codeassists], usageCount = [0]
+2023-08-17 12:06:09,360 [   2254]   WARN - #c.i.f.ProductivityFeaturesRegistryImpl - Feature with id 'codeassists.generate.code' is overridden by: id = [codeassists.generate.code], displayName = [null], groupId = [codeassists], usageCount = [0]
+2023-08-17 12:06:09,361 [   2255]   WARN - #c.i.f.ProductivityFeaturesRegistryImpl - Feature with id 'codeassists.quickdefinition' is overridden by: id = [codeassists.quickdefinition], displayName = [null], groupId = [codeassists], usageCount = [0]
+Info  | RdCoroutineScope          | 60:DefaultDispatcher-worker-42 | RdCoroutineHost overridden 
+2023-08-17 12:06:14,036 [   6930]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project ex1
+2023-08-17 12:06:17,535 [  10429]   WARN - #c.i.u.x.Binding - no accessors for com.intellij.openapi.projectRoots.Sdk
+2023-08-17 12:06:24,343 [  17237]   WARN - c.j.c.l.d.c.c.l.c.ClangClient - Standard clangd is not supported
+2023-08-17 12:33:30,111 [1643005] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 13 >= 13
+2023-08-17 12:33:30,113 [1643007] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 13 >= 13
+2023-08-17 12:33:30,389 [1643283] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 13 >= 13
+2023-08-17 12:33:30,390 [1643284] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 13 >= 13

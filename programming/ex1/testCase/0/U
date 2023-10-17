@@ -1,53 +1,59 @@
 /*--------------------------------*- C++ -*----------------------------------*\
 | =========                 |                                                 |
 | \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
-|  \\    /   O peration     | Version:  2306                                  |
-|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|  \\    /   O peration     | Version:  2.2.1                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
 |    \\/     M anipulation  |                                                 |
 \*---------------------------------------------------------------------------*/
 FoamFile
 {
     version     2.0;
-    format      binary;
-    arch        "LSB;label=32;scalar=64";
+    format      ascii;
     class       volVectorField;
     location    "0";
     object      U;
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
+#include        "../system/runConditions"
+
 dimensions      [0 1 -1 0 0 0 0];
 
-internalField   uniform (2 0 0);
+internalField   uniform ($flowVelocity 0 0);
 
 boundaryField
 {
     inlet
     {
-        type            prescribedPipeInlet;
+    	// prescribes a parabolic inlet profile
+        type       prescribedPipeInlet;
+        // (optional, default exponential) type of profile used for approximation
         approximationType exponential;
-        R               0.02625;
-        flowSpeed       2;
-        centrepoint     ( 0 0 0 );
-        deltaByR        0.1;
-        lambda          0;
-        value           uniform (2 0 0);
+        // pipe radius
+        R	$Rpipe;
+        // magnitude of flow velocity into the pipe
+        flowSpeed	$flowVelocity;
+        // (optional, defaults at origin) centrepoint of the pipe used to determine the radius of each face
+        centrepoint	(0 0 0);
+        // inlet BL thickness as a function of radius
+        deltaByR $deltaByR;
+        // (optional, default 0) pressure gradient coefficient (see Polhausen profile literature for explanation)
+        lambda 0.;
+        // dummy value overwritten by the BC, used for initialisation only
+        value		$internalField;
     }
     outlet
     {
         type            pressureInletOutletVelocity;
-        value           uniform (2 0 0);
+        phi             phi;
+        value           $internalField;
     }
     pipe
     {
-        type            fixedValue;
-        value           uniform (0 0 0);
+    	type fixedValue;
+    	value uniform (0 0 0);
     }
-    symmetryVer
-    {
-        type            symmetryPlane;
-    }
-    symmetryHor
+    "symmetry.*"
     {
         type            symmetryPlane;
     }
